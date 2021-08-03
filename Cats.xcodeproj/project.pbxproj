@@ -11,6 +11,9 @@
 		5C49ED7E26B93E0700D5E453 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C49ED7D26B93E0700D5E453 /* ContentView.swift */; };
 		5C49ED8026B93E0900D5E453 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C49ED7F26B93E0900D5E453 /* Assets.xcassets */; };
 		5C49ED8326B93E0900D5E453 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C49ED8226B93E0900D5E453 /* Preview Assets.xcassets */; };
+		5C49ED8B26B9411E00D5E453 /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C49ED8A26B9411E00D5E453 /* Cat.swift */; };
+		5C49ED8D26B94E7900D5E453 /* Cat.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C49ED8C26B94E7900D5E453 /* Cat.xcassets */; };
+		5C49ED8F26B9620100D5E453 /* CatDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C49ED8E26B9620100D5E453 /* CatDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		5C49ED7F26B93E0900D5E453 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C49ED8226B93E0900D5E453 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5C49ED8426B93E0900D5E453 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C49ED8A26B9411E00D5E453 /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
+		5C49ED8C26B94E7900D5E453 /* Cat.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Cat.xcassets; sourceTree = "<group>"; };
+		5C49ED8E26B9620100D5E453 /* CatDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +59,11 @@
 			isa = PBXGroup;
 			children = (
 				5C49ED7B26B93E0700D5E453 /* CatsApp.swift */,
+				5C49ED8A26B9411E00D5E453 /* Cat.swift */,
 				5C49ED7D26B93E0700D5E453 /* ContentView.swift */,
+				5C49ED8E26B9620100D5E453 /* CatDetail.swift */,
 				5C49ED7F26B93E0900D5E453 /* Assets.xcassets */,
+				5C49ED8C26B94E7900D5E453 /* Cat.xcassets */,
 				5C49ED8426B93E0900D5E453 /* Info.plist */,
 				5C49ED8126B93E0900D5E453 /* Preview Content */,
 			);
@@ -126,6 +135,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C49ED8D26B94E7900D5E453 /* Cat.xcassets in Resources */,
 				5C49ED8326B93E0900D5E453 /* Preview Assets.xcassets in Resources */,
 				5C49ED8026B93E0900D5E453 /* Assets.xcassets in Resources */,
 			);
@@ -139,7 +149,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C49ED7E26B93E0700D5E453 /* ContentView.swift in Sources */,
+				5C49ED8F26B9620100D5E453 /* CatDetail.swift in Sources */,
 				5C49ED7C26B93E0700D5E453 /* CatsApp.swift in Sources */,
+				5C49ED8B26B9411E00D5E453 /* Cat.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
