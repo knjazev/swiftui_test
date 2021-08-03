@@ -12,9 +12,10 @@ struct CatDetail: View {
     var breed: String
     
     var body: some View {
+        
         VStack {
             Image(nickName)
-                 .clipShape(Circle())
+                .clipShape(Circle())
                 .overlay(
                     Circle().stroke(Color.orange, lineWidth: 4)
                 )
@@ -32,6 +33,7 @@ struct CatDetail: View {
 struct CatDetail_Previews: PreviewProvider {
     static var previews: some View {
         CatDetail(nickName: "Leo", breed: "Asian")
+        
     }
 }
 

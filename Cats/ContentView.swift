@@ -12,11 +12,26 @@ struct ContentView: View {
     var cats: [Cat] = []
     var body: some View {
         
-        NavigationView {
-            List(cats) { cat in
-                CatCell(cat: cat)
-            }.navigationBarTitle(Text("Cats"))
+        
+        TabView {
+            NavigationView {
+                List(cats) { cat in
+                    CatCell(cat: cat)
+                }.navigationBarTitle(Text("Cats"))
+            }
+            .tabItem {
+                Image(systemName: "house.fill")
+                Text("Home")
+            }
+            
+            Text("Favorite cats")
+                .font(.system(size: 30, weight: .bold, design: .rounded))
+                .tabItem {
+                    Image(systemName: "star")
+                    Text("Favorite")
+                }
         }
+        
     }
 }
 
@@ -31,6 +46,9 @@ struct CatCell: View {
     
     let cat: Cat
     var body: some View {
+        
+        
+        
         NavigationLink(destination: CatDetail(nickName: cat.nickname, breed: cat.breed)) {
             Image(cat.nickname)
                 .cornerRadius(50)
